@@ -71,9 +71,9 @@ html {
 
 .button--section1 {
     position: absolute;
-    /* left: calc(50% - 111px); */
     top: 300px;
-    display: block;
+    display: flex;
+    justify-content: center;
     padding: 15px;
     width: 60%;
     border: 1px solid black;
@@ -218,18 +218,14 @@ html {
     padding: 30px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 
 .facebook,
-.instagram {
-    width: 70%;
-    padding: 30px;
-    border-radius: 50px;
+.instagram,
+.tiktok {
+    width: 20%;
+    border-radius: 50%;
 }
 
-.tiktok {
-    width: 40%;
-    margin: 27px;
-    padding-left: 4px;
-}
