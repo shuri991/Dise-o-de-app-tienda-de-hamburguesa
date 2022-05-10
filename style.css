@@ -1,18 +1,14 @@
 :root {
---green-soft:linear-gradient(207.8deg, #313628 16.69%, #a7b214 100%);
---yellow-gradier:#1b1a16; ;
---yellow-sun: #1b1a16;  
---orange-soft: #e5e832;
+--black-soft:#1b1a16; ; 
+--yellow-green: rgb(246, 246, 11);
+--white: #fff;
 }
-
-
 
 body {
  padding: 0;
  margin: 0;
  box-sizing: border-box;
 }
-
 
 html {
     font-size: 62.5%;
@@ -28,7 +24,7 @@ html {
     width: 100%;
     min-width: 320px; 
     padding: 10px;
-    background: var(--yellow-gradier);
+    background: var(--black-soft);
    
 }
 
@@ -77,14 +73,14 @@ html {
     padding: 15px;
     width: 60%;
     border: 1px solid black;
-    background: rgb(246, 246, 11);
+    background: var(--yellow-green);
 }
 
 .text-button1 {
     margin: 0px 70px;
     padding: 5px;
-    color: white;
-    background: black;
+    color: var(--white);
+    background: var(--black-soft);
     border: none;
     border-radius: 15px;
 }
@@ -93,26 +89,26 @@ html {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 50px;
-    background: var(--yellow-sun);
+    background: var(--black-soft);
     
 }
 
 .section2--title-container,
 .nuestro-menú--title {
-    color: rgb(246, 246, 11);
+    color: var(--yellow-green);
     font-size: 2rem;
     margin: 30px 20px;
 }
 
 .nuestro-menú--title {
-    color: #1b1a16;
+    color: var(--black-soft);
 }
 
 .section2--title-container-p {
     font-size: 1.5rem;
     font-weight: 500;
     margin: 30px 20px;
-    color: #fff;
+    color: var(--white);
 }
 
 .image-hamburguesa,
@@ -123,20 +119,20 @@ html {
 .cards-menús {
    display: flex;
    justify-content: space-around;
-    padding: 20px;
+   padding: 20px;
 } 
 
 .menus-selection--number {
-    background: var(--yellow-sun);
+    background: var(--black-soft);
     padding: 5px 25px;
     font-weight: bold;
-    color: rgb(246, 246, 11);
+    color: var(--yellow-green);
     font-size: 2rem;
 }
  
 .card-menú {
     padding: 5px 0px;
-    background: rgb(246, 246, 11);
+    background: var(--yellow-green);
 }
 
 .card-menú h3 {
@@ -165,8 +161,8 @@ html {
 }
 
 .Text-button {
-    background: #1b1a16;
-    color: #fff;
+    background: var(--black-soft);
+    color: var(--white);
     border: none;
     padding: 10px;
     border-radius: 15px;
@@ -174,7 +170,7 @@ html {
 }
 
 .footer{
-    background: #1b1a16;
+    background: var(--black-soft);
     padding: 10px;
 }
 
@@ -184,12 +180,12 @@ html {
 }
 
 .footer h2 {
-    color:#fff;
+    color:var(--white);
     margin: 0px;
 }
 
 .footer p {
-    color: #fff;
+    color: var(--white);
 }
 
 .footerLogo {
@@ -208,7 +204,7 @@ html {
 
 .footer-information li,
 .footer-social li {
-    color:#fff;
+    color: var(--white);
     font-size: 1.5rem;
     font-weight: 500;
 }
@@ -221,11 +217,9 @@ html {
     
 }
 
-
 .facebook,
 .instagram,
 .tiktok {
     width: 20%;
     border-radius: 50%;
 }
-
